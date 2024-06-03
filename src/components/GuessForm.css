@@ -1,0 +1,30 @@
+.guess-form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .guess-option-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+  }
+  
+  .guess-option-button:hover {
+    background-color: #45a049; /* Un tono más oscuro de verde */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .guess-option-button:active {
+    background-color: #367c39; /* Un tono aún más oscuro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
