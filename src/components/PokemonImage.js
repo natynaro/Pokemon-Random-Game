@@ -10,7 +10,8 @@ function PokemonImage({ id, reveal }) {
       style={{
         width: '250px',
         height: '250px',
-        filter: reveal ? 'none' : 'brightness(0) saturate(100%)'
+        filter: reveal ? 'none' : 'brightness(0) saturate(100%)',
+        backgroundColor: 'transparent' // Asegúrate de que el fondo sea transparente
       }}
     />
   );

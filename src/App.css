@@ -62,7 +62,6 @@ html, body {
   overflow: hidden;
 }
 
-
 #root {
   height: 100%;
   display: flex;
@@ -70,6 +69,67 @@ html, body {
   align-items: center;
 }
 
-.Conteo{
-  gap:8px;
+.Conteo {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-guess-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  background-color: #3e8e41;
+}
+
+.back-button {
+  background-color: #FF6347;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background-color: #FF4500;
+  transform: scale(1.05);
+}
+
+.back-button:active {
+  background-color: #FF0000;
 }
